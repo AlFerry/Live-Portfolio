@@ -3,21 +3,99 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Alyssa Ferry Portfolio</title>
     <!--Website title shown on browser tab-->
 </head>
 
+<!--Start of webpage content-->
 <body>
+    <!--Header contains my name/title and a navigation bar-->
     <header>
         <h1>Alyssa Ferry, EIT</h1>
         <nav>
             <ul>
-                <li>Education</li>
-                <li>Experience</li>
-                <li>Projects</li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">My Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
             </ul>
         </nav>
     </header>
+    <!--Filler shows a sample image to improve appearance of page-->
+    <p class="filler" title="code"></p>
+    <!--Content is the primary information shown on the page, ie the main section-->
+    <section class="content">
+        <!--The about section shows my bio and a picture of myself-->
+        <section class="segment" id="about">
+            <section class="title">
+                <h2>About Me</h2>
+            </section>
+            <section class="center">
+                <p> I was born and raised in the greater Seattle area and am happy to once again call it home. I attended college in Montana at beautiful Montana State University where I received a degree in electrical engineering.
+                In my spare time I enjoy spending time I like playing board games to keep my mind sharp and spending time with my dog.
+                </p>
+            </section>
+            <section class="profilePic">
+                <img src="./assets/RoseGarden.png" class="rose" alt="At the Portland Rose Garden">
+            </section>
+        </section>
+        <!--This "my work" section shows samples of my work and links to live pages-->
+        <section class="segment" id="work">
+            <section class="title">
+                <h2>My Work</h2>
+            </section>
+            <section class="right">
+                <section class="bigProject">
+                    <a href="https://alferry.github.io/Calculator/" target="_blank">
+                        <img src="./assets/calculator.jpg" alt="Calculator">
+                    </a>
+                    <h3>Calculator</h3>
+                </section>
+                <section class="row">
+                    <section class="projects">
+                        <a href="./AFerry Resume.pdf" target="_blank">
+                            <img src="./assets/resumePic.jpg" alt="resume">
+                        </a>
+                        <h3>Resume</h3>
+                    </section>
+                    <section class="projects">
+                        <a href="./assets/ComingSoon.html" target="_blank">
+                            <img src="assets/waiting.jpg" alt="patient dog">
+                        </a>
+                        <h3>Coming soon!</h3>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!--The contact section has live links to my affiliated webpages and
+            links to directly contact me.-->
+        <section class="segment" id="contact">
+            <section class="title">
+                <h2>Contact Me</h2>
+            </section>
+            <section class="right">
+                <section class="link">
+                    <section class="card">
+                        <a href="https://www.linkedin.com/in/alyssa-ferry-eit-93b088171/" target="_blank"><h4>LinkedIn</h4></a>
+                    </section>
+                    <section class="card">
+                        <a href="https://github.com/AlFerry" target="_blank"><h4>GitHub</h4></a>
+                    </section>
+                    <section class="card">
+                        <a href="mailto:alyssa.ferry96@gmail.com"><h4>Send me an email!</h4></a>
+                    </section>
+                    <section class="card">
+                        <a href="tel:4252051440"><h4>+1(425) 205-1440</h4></a>
+                    </section>
+                </section>
+            </section>
+        </section>
 
+    </section>
 </body>
