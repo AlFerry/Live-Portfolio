@@ -132,10 +132,10 @@ a {
 
 .row{
     display:flex;
-    flex: 1 1 100%;
+    flex-wrap: wrap;
     text-align: center;
     color:silver;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 5px;
 }
