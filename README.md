@@ -11,7 +11,8 @@ The contact section allows a user to contact me directly via email/phone or view
 
 Webpage will adapt to mobile viewports and remain usable.
 
-[Live URL] ()
+[Live URL] (https://alferry.github.io/Live-Portfolio/)
 
 Image of webpage:
-![Image of Weather Dashboard](/Screenshot.PNG)
+![Image of Weather Dashboard](./assets/screenshot.PNG)
+
