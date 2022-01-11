@@ -1,10 +1,17 @@
 # Live-Portfolio
 Portfolio to display samples of work
 
-Use navigation bar to add links to sections on webpage.
+Navigation bar at top of page allows user to navigate directly to desired section.
 
-Can add info to about me paragraph.
+About me section shows basic background information.
 
-Can add more projects to "my work" section using "projects" class to create more tiles to display work. These tiles are flex boxes that will shrink with the webpage.
+My work is showcased with one focused project and three smaller projects. These tiles are links to deployed webpages so a user can see my actual work.
 
-The contact section can contain more contact methods using the "card" class.
+The contact section allows a user to contact me directly via email/phone or view my linkedIn or GitHub profiles.
+
+Webpage will adapt to mobile viewports and remain usable.
+
+[Live URL] ()
+
+Image of webpage:
+![Image of Weather Dashboard](/Screenshot.PNG)

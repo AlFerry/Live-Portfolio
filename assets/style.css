@@ -6,7 +6,7 @@
 }
 /*Styling for background of page*/
 body{
-    background-color: rgb(167, 164, 168);
+    background-color: rgb(170, 164, 172);
 }
 
 /*Styling for header/navigation bar at top of page*/
@@ -14,7 +14,7 @@ header{
     padding: 20px;
     font-family:Arial, Helvetica, sans-serif;
     /*background-color: rgb(1, 78, 78);*/
-   background: linear-gradient(to right, #10543b 11%,#186a7f 52%,#0f2360 100%,#7db9e8 100%,#0f2063 100%);
+   background: linear-gradient(to right, #11463a 11%,#206374 52%,#1c3c66 100%,#7db9e8 100%,#0f2063 100%);
     color: rgb(248, 243, 226);
 }
 
@@ -77,6 +77,9 @@ a {
     border-right: solid;
     border-color: rgb(29, 36, 58);
     border-width: 2px;
+}
+.title h2{
+    font-size: 24px;
 }
 /*Styling for the center bio section and the picture in the About Me section*/
 .center{
@@ -161,23 +164,63 @@ a {
     text-decoration: none;
 }
 
-@media (max-width:750px){
+/* media query to change to mobile-friendly view */
+@media (max-width:805px){
     .projects{
         flex-wrap: wrap;
         width: 100%;
         align-self: center;
         margin-bottom: 2rem;
-        margin-right: 2rem;
-        flex: 1 1 100%;
+        margin-right: 0;
+        flex: 1 1 200%;
     }
     .row{
         display:flex;
         flex-wrap: wrap;
         text-align: center;
-        align-items: center;
+        align-items: stretch;
         justify-content: flex-start;
         margin-bottom: 0px;
         padding-right: 0px;
+    }
+    header{
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    .projects img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        z-index: -1;
+    }
+    header h1{
+        font-size: 28px;
+    }
+    header nav{
+        padding-top: 5px;
+        margin-right: 20px;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    
+    header nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:flex-end;
+    }
+    
+    header nav ul li {
+        display: wrap;
+        margin-left: 30px;
+    }
+    .title h2{
+        font-size: 14px;
+    }
+    .segment{
+        padding: 7px;
     }
 
 }
